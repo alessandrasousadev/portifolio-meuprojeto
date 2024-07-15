@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- GOOGLE FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <!-- FIM GOOGLE FONTES -->
+    <!-- BOOTSTRAP ICONS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <!-- FIM BOOTSTRAP ICONS -->
+    <link rel="stylesheet" href="style.css">
+
+    <script src="menu.js" defer></script>
+
+    <title>Portifólio Aleu</title>
+</head>
+<body>
+    
+    <header>
+        <div class="interface">
+            <div class="logo">
+                <a href="#">
+                    <img src="images/logo.png" alt="Logo Portifolio Alessandra Sousa">
+                </a>
+            </div><!--logo-->
+
+            <nav class="menu-desktop">
+                <ul>
+                    <li><a href="#">Sobre mim</a></li>
+                    <li><a href="#">Experiências</a></li>
+                    <li><a href="#">Skills</a></li>
+                </ul>
+            </nav>
+
+            <div class="aleu-contato">
+                <a href="#">
+                    <button>Contato</button>
+                </a>
+            </div><!--aleu-contato-->
+
+            <div class="aleu-abrir-menu" id="aleu-menu">
+                <i class="bi bi-list"></i>
+            </div>
+
+            <div class="menu-mobile" id="menu-mobile">
+                <div class="aleu-fechar">
+                    <i class="bi bi-x-lg"></i>
+                </div>
+
+                <nav>
+                    <ul>
+                        <li><a href="#">Sobre mim</a></li>
+                        <li><a href="#">Experiências</a></li>
+                        <li><a href="#">Skills</a></li>
+                    </ul>
+                </nav>
+
+            </div><!--menu-mobile-->
+            <div class="overlay-menu" id="overlay-menu"></div>
+        </div><!--interface-->
+    </header>
+
+    <main>
+        <section class="topo-do-site">
+            <div class="interface">
+                <div class="flex">
+                    <div class="txt-topo-site">
+                        <h1>Olá, meu nome é Alessandra Sousa e construo páginas web<span>!</span></h1>
+                        <p>E atualmente estou participando no projeto Oracle One na Alura.</p>
+
+                        <div class="aleu-contato">
+                            <a href="#">
+                                <button>Entre em contato</button>
+                            </a>
+                        </div>
+                    </div><!--txt-topo-site-->
+
+                    <div class="img-topo-site">
+                        <img src="images/pessoa.png" alt="">
+                    </div><!--img-topo-site-->
+                </div><!--flex-->
+            </div><!--interface-->
+        </section><!--topo-do-site-->
+
+        <section class="experiencias">
+            <div class="interface">
+                <h2 class="titulo">MINHAS <span>EXPERIÊNCIAS.</span></h2>
+                <div class="flex">
+                    <div class="experiencias-box">
+                        <i class="bi bi-code-square"></i>
+                        <h3>Website</h3>
+                        <p>Especializada em criar websites modernos e responsivos, focando em design intuitivo e experiência do usuário.</p>
+                    </div><!--experiencias-box-->
+
+                    <div class="experiencias-box">
+                        <i class="bi bi-cart"></i>
+                        <h3>Loja online</h3>
+                        <p>Especializada em criar lojas online modernas e responsivas, otimizadas para uma excelente experiência de compra.</p>
+                    </div><!--experiencias-box-->
+
+                    <div class="experiencias-box">
+                        <i class="bi bi-wordpress"></i>
+                        <h3>Blog</h3>
+                        <p>Especializada em criar blogs no WordPress, garantindo design atraente, funcionalidade intuitiva e excelente performance.</p>
+                    </div><!--experiencias-box-->
+                </div><!--flex-->
+            </div><!--interface-->
+        </section><!--experiencias-->
+
+        <section class="sobre">
+            <div class="interface">
+                <div class="flex">
+                    <div class="img-sobre">
+                        <img src="images/foto.png" alt="">
+                    </div><!--img-sobre-->
+
+                    <div class="txt-sobre">
+                        <h2>MUITO PRAZER, <span>SOU ALESSANDRA SOUSA DA CRUZ.</span></h2>
+                        <p>Minhas Skills como FrontEnd: HTML 5, CSS, Ract, aprimorando atualmente meus conhecimentos para trazer um melhor desempenho para os meus clientes.</p>
+                        <p>Minhas Skills como BackEnd: APIs RESTful com Java, Spring Framework e Arquitetura Cloud First, Spring Boot, Spring Data, Spring Security, Spring MVC, Persistência em Bancos de Dados Relacionais (PostgreSQL, MySQL) e não-relacionais (MongoDB).</p>
+                        <div class="aleu-social">
+                            <a href="#"><button><i class="bi bi-instagram"></i></button></a>
+                            <a href="#"><button><i class="bi bi-github"></i></button></a>
+                            <a href="#"><button><i class="bi bi-linkedin"></i></button></a>
+                        </div><!--aleu-social-->
+                    </div><!--txt-sobre-->
+                </div><!--flex-->
+            </div><!--interface-->
+        </section><!--sobre-->
+
+        
+
+        <section class="formulario">
+            <div class="interface">
+                <h2 class="titulo">FALA <span>COMIGO.</span></h2>
+
+                <form action="">
+                    <input type="text" name="" id="" placeholder="Seu nome completo:" required>
+                    <input type="text" name="" id="" placeholder="Seu e-mail:" required>
+                    <input type="text" name="" id="" placeholder="Seu celular:">
+                    <textarea name="" id="" placeholder="Sua mensagem" required></textarea>
+                    <div class="aleu-enviar"><input type="submit" value="ENVIAR"></div>
+                </form>
+            </div><!--interface-->
+        </section><!--formulario-->
+
+    </main>
+
+    <footer>
+        <div class="interface">
+            <div class="line-footer">
+                <div class="flex">
+                    <div class="logo-footer">
+                        <img src="images/logo.png" alt="Logotipo Portifolio Aleu">
+                    </div><!--logo-footer-->
+                    <div class="aleu-social">
+                        <a href="https://www.instagram.com/alessandrasoucruz"><button><i class="bi bi-instagram"></i></button></a>
+                        <a href="https://github.com/alessandrasousadev"><button><i class="bi bi-github"></i></button></a>
+                        <a href="https://www.linkedin.com/in/alessandrasoucruz-java/"><button><i class="bi bi-linkedin"></i></button></a>
+                    </div><!--aleu-social-->
+                </div>
+            </div><!--line-footer-->
+
+            <div class="line-footer borda">
+                <p><i class="bi bi-envelope-fill"></i> <a href="mailto:aleusoudev@gmail.com">aleusoudev@gmail.com</a></p>
+            </div><!--line-footer-->
+        </div><!--interface-->
+    </footer>
+
+</body>
+</html>
